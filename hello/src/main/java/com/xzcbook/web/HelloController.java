@@ -1,6 +1,7 @@
 package com.xzcbook.web;
 
 
+import java.util.Random;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -23,9 +24,14 @@ public class HelloController
   private DiscoveryClient client;
 
   @RequestMapping(value = "/hello", method = RequestMethod.GET)
-  public String index()
+  public String index() throws Exception
   {
     ServiceInstance instance = client.getLocalServiceInstance();
+
+    //让线程等待几秒钟
+    int sleepTime = new Random().nextInt(4000);
+    logger.info("sleepTime:" + sleepTime);
+    Thread.sleep(sleepTime);
     logger.info("/hello, host:" + instance.getHost() + ",service_id:" + instance.getServiceId());
     return "Hello World";
   }
