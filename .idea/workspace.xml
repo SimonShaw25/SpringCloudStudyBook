@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4bd9939-9f14-4f8b-96f7-0aaefcff283a" name="Default Changelist" comment="Hystix">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/xzcbook/AccessFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c4bd9939-9f14-4f8b-96f7-0aaefcff283a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/src/main/java/com/xzcbook/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/xzcbook/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/src/main/java/com/xzcbook/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/xzcbook/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/src/test/java/com/xzcbook/HelloApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/hello/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -255,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555335453319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555335512704" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/api-gateway/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -353,11 +341,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.EurekaServerApplication" />
+      <item itemvalue="Application.FeignConsumerApplication" />
       <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Application.RibbonConsumerApplication" />
-      <item itemvalue="Application.FeignConsumerApplication" />
-      <item itemvalue="Application.ApiGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -415,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554817805082</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zuul">
+      <created>1555335494963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555335494963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -431,7 +426,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2284345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -443,7 +437,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5075594" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39956802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -506,7 +500,8 @@
     <MESSAGE value="按书敲代码第一弹" />
     <MESSAGE value="提交" />
     <MESSAGE value="Hystix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hystix" />
+    <MESSAGE value="zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="zuul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
