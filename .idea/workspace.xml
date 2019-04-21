@@ -341,11 +341,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.EurekaServerApplication" />
-      <item itemvalue="Application.FeignConsumerApplication" />
       <item itemvalue="Application.HelloApplication" />
       <item itemvalue="Application.RibbonConsumerApplication" />
+      <item itemvalue="Application.FeignConsumerApplication" />
+      <item itemvalue="Application.ApiGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
